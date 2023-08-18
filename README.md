@@ -43,7 +43,7 @@
 
    `--teacher_weights_path`, `--dataset_folder`, and `--image_path`
 
-- Train
+- Train/test
 
   Then you can run the script to conduct distillation.
 
