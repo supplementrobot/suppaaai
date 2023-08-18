@@ -547,6 +547,7 @@ def do_train(dataloaders, params: MinkLocParams):
 
             with open(f'results/{args.exp_name}.txt', 'a') as f:
                 for each_line in txt:
+                    print(each_line)
                     f.writelines(each_line)
                     f.writelines('\n')
 
@@ -574,6 +575,7 @@ def do_train(dataloaders, params: MinkLocParams):
 
             with open(f'results/{args.exp_name}.txt', 'a') as f:
                 for each_line in txt:
+                    print(each_line)
                     f.writelines(each_line)
                     f.writelines('\n')
 
